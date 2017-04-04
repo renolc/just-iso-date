@@ -1,0 +1,17 @@
+{
+  "name": "just-iso-date",
+  "version": "1.0.0",
+  "description": "Convert between ISO strings and date objects, all while disregarding timestamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "just",
+    "ISO",
+    "date",
+    "convert"
+  ],
+  "author": "Phillip Gibson <gibson.phillip.j@gmail.com>",
+  "license": "MIT"
+}
