@@ -12,6 +12,7 @@ module.exports = {
     } else if (typeof value === 'string' && DATE_FORMAT.test(value)) {
       var dateParts = value.match(DATE_FORMAT).splice(1)
       return new Date(dateParts[0], dateParts[1]-1, dateParts[2])
+      
     } else {
       throw new Error('Invalid date supplied. Please specify a date object or date string in YYYY-MM-DD format.')
     }
